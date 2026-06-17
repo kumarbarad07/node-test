@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-    res.send("Elastic Beanstalk Working");
+    res.send("Elastic Beanstalk Working now");
 });
 
 app.get("/about", (req, res) => {
