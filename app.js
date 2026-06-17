@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.send("Elastic Beanstalk Working now");
+    res.send("CI/CD Pipeline Successful");
 });
 
 app.get("/about", (req, res) => {
